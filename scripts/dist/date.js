@@ -7,7 +7,7 @@ module.exports = function (robot) {
       if (!error) {
         console.log(stdout);
       } else {
-        console.log(stderror);
+        console.log("error");
       }
     });
   });
